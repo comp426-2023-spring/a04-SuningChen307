@@ -43,3 +43,7 @@ app.post('/app/rpsls/play/', (req, res) => {
 app.get('/app/rps/play/:shot', (req, res) => {
         res.status(200).send(playRps(req.params.shot));
 });
+
+app.get('/app/rpsls/play/:shot', (req, res) => {
+    res.status(200).send(playRpsls(req.params.shot));
+});
