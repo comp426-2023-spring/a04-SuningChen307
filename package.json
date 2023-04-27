@@ -8,6 +8,7 @@
   },
   "author": "SuningChen",
   "license": "GPL-3.0+",
+  "type": "module",
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.18.2",
