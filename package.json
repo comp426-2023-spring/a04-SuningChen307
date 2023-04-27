@@ -1,0 +1,11 @@
+{
+  "name": "a04-suningchen307",
+  "version": "1.0.0",
+  "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SuningChen",
+  "license": "GPL-3.0+"
+}
