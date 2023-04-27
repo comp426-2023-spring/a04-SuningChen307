@@ -23,3 +23,8 @@ app.get('/app/rps', (req, res) => {
 app.get('/app/rpsls', (req, res) => {
 	res.status(200).send(PlayRpsls());
 });
+
+app.get('/app/rps/play', (req, res) => {
+	res.status(200).send(PlayRps(req.query.shot));
+});
+
