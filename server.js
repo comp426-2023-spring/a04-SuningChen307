@@ -3,7 +3,7 @@
 import express from 'express';
 import minimist from 'minimist';
 
-import { playRps, playRpsls } from './lib/rpsls.js';
+import { rps, rpsls } from './lib/rpsls.js';
 
 const app = express();
 app.use(express.json());
