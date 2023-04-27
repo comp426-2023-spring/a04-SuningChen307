@@ -16,3 +16,7 @@ app.get('/app', (req, res) => {
 	res.status(200).send("200 OK");
 });
 
+app.get('/app/rps', (req, res) => {
+	res.status(200).send(PlayRps());
+});
+
