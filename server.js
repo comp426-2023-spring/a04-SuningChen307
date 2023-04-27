@@ -20,3 +20,6 @@ app.get('/app/rps', (req, res) => {
 	res.status(200).send(PlayRps());
 });
 
+app.get('/app/rpsls', (req, res) => {
+	res.status(200).send(PlayRpsls());
+});
